@@ -5,7 +5,7 @@ Share stuff through HTTP
 To install:
 
 ```
-go get github.com/katcipis/shareh
+go install github.com/katcipis/shareh@latest
 ```
 
 Just run:
