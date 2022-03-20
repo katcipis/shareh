@@ -25,6 +25,6 @@ func main() {
 
 	log.Fatal(http.ListenAndServe(
 		fmt.Sprintf(":%d", port),
-		http.FileServer(http.Dir("."))),
+		http.FileServer(http.Dir(dir))),
 	)
 }
